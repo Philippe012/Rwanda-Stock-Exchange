@@ -216,7 +216,7 @@ def main():
     output_dir = BASE_DIR / "output"
     output_dir.mkdir(exist_ok=True)
 
-    print("🇷🇼 Rwanda Stock Exchange Prediction Framework")
+    print("Rwanda Stock Exchange Prediction Framework")
     print("=" * 60 + "\n")
 
     indicators_df = analyze_indicators(sheets['Sheet1'])
